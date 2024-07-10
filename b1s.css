@@ -1,0 +1,91 @@
+body{ font-family: Arial, sans-serif;
+background-color: #faefe1;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.body{margin: 44px;}
+
+.bordarEffect {
+
+    background-color: white;
+    border-radius: 10px;
+   
+    padding: 20px;
+  
+}
+.pic {
+    width: 100%;
+    border-radius: 10px 10px 0 0;}
+    .ul1{
+        text-align: left;
+        font-family: Arial, sans-serif;
+background-color: rgb(250, 242, 242);
+border-radius: 10px;
+padding: 0 20px;
+margin: 0;
+
+    } .ul12{
+        text-align: left;
+
+border-radius: 10px;
+padding: 0 20px;
+margin: 0;
+
+    }
+    .fontZ{ font-size: 7px;
+
+
+
+    }h2{font-family:Young Sferi;
+
+
+
+    }h3,vv{font-family:Arial, Helvetica, sans-serif;
+    color:  hsl(15, 66%, 27%);
+    }
+    h4,ol{font-family:Arial, Helvetica, sans-serif;
+        color:   hsl(332, 51%, 32%);}
+        li,e{font-size: xx-small;}
+        black{color: black;}
+        .small{font-size: 7.5px;}
+        @media only screen and (min-width:375px) {
+            .bordarEffect{
+                width: 100%;
+                max-width: 750px;
+                min-width:375px;
+                margin: 0%;
+            }.pic{
+
+                width: 100%;
+                border-radius: 10px 10px 0 0;
+                max-width: 750px;
+                min-width:375px;
+                margin: 0px;
+               
+            }
+            .body {margin:0px;}
+
+            }  
+            @media only screen and (min-width:700px){
+
+                .bordarEffect{
+                    width: 50%;
+                   max-width: 350px;
+                   min-width: none;
+                   
+                   margin:44px;
+
+            }
+           
+            .pic{
+
+                width: 80%;
+                border-radius: 10px 10px 0 0;
+                max-width: 50% ;
+               
+               
+             
+            }
+      }
